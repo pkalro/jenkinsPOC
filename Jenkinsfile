@@ -1,10 +1,10 @@
 pipeline {
-    agent any
+    agent docker { image 'node:7-alpine' }
     stages {
         stage('build') {
             steps {
                 retry(2) {
-                    sh 'echo "Hello"'
+                    sh 'npm --version'
                 } 
                 
                 
