@@ -1,2 +1,2 @@
 # jenkinsPOC
-POC for jenkins
+POC for jenkins testing
